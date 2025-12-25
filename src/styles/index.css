@@ -8,6 +8,14 @@ body,
   height: 100%;
 }
 
+/* direction helpers */
+.direction-ltr {
+  direction: ltr;
+}
+.direction-rtl {
+  direction: rtl;
+}
+
 /* infinite scroll for bottom strip */
 @keyframes strip-scroll {
   0% {
