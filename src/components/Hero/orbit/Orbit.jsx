@@ -3,7 +3,7 @@ import orbitFull from "../../../assets/images/orbit-full.svg";
 
 const Orbit = () => {
   return (
-    <div className="relative w-[950px] max-w-[70vw]">
+    <div className="relative w-[600px] max-w-[70vw]">
       <img
         src={orbitFull}
         alt="Orbit graphic"

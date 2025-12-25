@@ -9,7 +9,6 @@ const Header = () => {
         {/* RIGHT: logo + subtitle */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="בירוקליק" className="h-8 object-contain" />
-          <span className="text-xs text-textMuted">בירוקרטיה בקליק</span>
         </div>
 
         {/* CENTER: nav */}
