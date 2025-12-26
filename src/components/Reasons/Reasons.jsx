@@ -10,10 +10,29 @@ const Reasons = () => {
     <section className="bg-white px-5 py-20 md:px-16">
       <div className="mx-auto max-w-6xl text-center">
         {/* title */}
-        <h2 className="mb-12 text-[36px] font-light text-[#040035]">
-          כל הסיבות <span className="text-[#3C8DFB]">לבחור</span>
-          <span className="text-[#F54387]"> בנו</span>
-        </h2>
+<div className="w-full flex justify-center">
+  <h2
+    className="mb-12 text-[60px] leading-[1] font-light text-right flex gap-2"
+    style={{ fontFamily: "Noto Sans Hebrew, sans-serif" }}
+  >
+    {/* black part */}
+    <span className="text-[#040035]">כל הסיבות</span>
+
+    {/* gradient part: לבחור בנו */}
+    <span
+      className="font-normal"
+      style={{
+        background:
+          "linear-gradient(270deg, #F54387 58.65%, #41AEF7 100%)",
+        WebkitBackgroundClip: "text",
+        WebkitTextFillColor: "transparent",
+      }}
+    >
+      לבחור בנו
+    </span>
+  </h2>
+</div>
+
 
         {/* cards row */}
         <div className="grid gap-10 md:grid-cols-3">
